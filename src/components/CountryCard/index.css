@@ -1,0 +1,33 @@
+.countrycardContainer {
+  width: 350px;
+  height: 250px;
+  list-style-type: none;
+  background-color: #1f1f2f;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.countryFlag {
+  width: 350px;
+  height: 200px;
+}
+.countryNameAndRemoveButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 45px;
+  padding: 10px;
+}
+.removeButton {
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+}
+.countryName {
+  color: white;
+  font-size: 20px;
+}

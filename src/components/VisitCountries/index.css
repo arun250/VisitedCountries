@@ -1,0 +1,51 @@
+.countryList {
+  width: 80%;
+  height: 400px;
+
+  border-radius: 5px;
+  overflow: auto;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.countryCard {
+  display: flex;
+  border: 1px solid #334155;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1f1f2f;
+  height: 80px;
+}
+.visitedButton {
+  padding: 5px 20px 5px 20px;
+  color: white;
+  background-color: #3b82f6;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.countryListName {
+  font-size: 20px;
+  color: #f1f5f9;
+}
+.countryVisitedList {
+  font-size: 20px;
+  color: white;
+}
+.flagList {
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bodyContainer {
+  background-color: #161624;
+  height: 100vh;
+}
+* {
+  margin: 0px;
+}
+.countryHeading {
+  color: white;
+}
